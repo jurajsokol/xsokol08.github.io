@@ -1,0 +1,62 @@
+@import url("main.css");
+@import url("tisk.css") print;
+
+/*
+ * header
+ */
+ .logo{
+     background-image: url(./images/pexels-photo-213988.jpg);
+ }
+
+ h2{
+     color:white;
+     background-color:#707E7A;
+     border-bottom-style: solid;
+     border-bottom-width: 2px;
+     border-color:#707E7A;
+     padding:30px;
+     text-align: center;
+     font-size: 35px;
+     margin: 0;
+ }
+
+div.content{
+    margin-top: 20px;
+}
+
+  div.content div.card img{
+    min-width:250px;
+    max-width:50%;
+    display: inline-block;
+ }
+
+ h3{
+     margin-top:0;
+     text-align: center;
+     font-size: 30px;
+ }
+
+ img.right{
+     right:0;
+ }
+
+  div.content div.card div{
+      position:relative;
+    display: inline-block;
+    min-width:300px;
+    max-width:40%;
+    padding:2% 5% 2% 4%;
+ }
+
+ div.content div.card{
+     padding:0;
+     padding:20px 0px 20px 0px;
+     border-bottom-style: solid;
+     border-color:#707E7A;
+     border-bottom-width: 2px;
+     padding-bottom:0;
+ }
+
+ div.foot{
+     background-color:#707E7A;
+ }

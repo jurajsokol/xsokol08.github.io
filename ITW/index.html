@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="utf-8">
+        <title>Zoo Královo pole</title>
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <script>
+            function hideImage() {
+                document.getElementById("akt1").width="0";
+                $("akt1_text").css("display","block");
+            }
+</script>
+    </head>
+    <body>
+        <div class="logo">
+            <a href="xsokol08.github.io/ITW/index.html" class="logo_container">
+                <h1 class="logo_item">Zoo <br>Královo pole</h1>
+            <img class="logo_item" alt="logo" src="./images/path4189.png">
+            </a>
+            <nav>
+            <div>
+                <ul>
+                    <li><a href="./index.html">Hlavná stránka</a></li>
+                    <li><a href="./zvierata.html">Zvieratá</a></li>
+                    <li><a href="#cennik">Cenník</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                    <li><a>Mapa stránok</a></li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+
+        <div class="aktuality_container">
+            <h2 class="white">Aktuality</h2>
+            <div class="aktuality">
+                <div>
+                    <img id="akt1" onclick='hideImage()' src="./images/red-fox-2230731_1920.jpg">
+                    <div>Novo otvorené: zimná časť zoo</div>
+                </div>
+                <div>
+                    <img src="./images/lamb-2216160_1920.jpg">
+                    <div>Nové zvieratá</div>
+                </div>
+                <div>
+                    <img src="./images/donkey-105719_1920.jpg">
+                    <div>Prídte nakŕmiť hospodárske zvieratá</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cennik_wrapper">
+        <h2 id="cennik">Cenník</h2>
+        <div class="cennik">
+
+            <table>
+                <tr>
+                    <th>Základné vstupné</th><th>cena</th>
+                </tr>
+                <tr>
+                    <td>deti do 8 rokov</td><td>30 Kč</td>
+                </tr>
+                <tr>
+                    <td>žiaci</td><td>50 Kč</td>
+                </tr>
+                <tr>
+                    <td>deti</td><td>30 Kč</td>
+                </tr>
+                <tr>
+                    <td>dospelí</td><td>100 Kč</td>
+                </tr>
+                <tr>
+                    <td>seniori</td><td>50 Kč</td>
+                </tr>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th>Skupinové vstupné</th><th>cena</th>
+                </tr>
+                <tr>
+                    <td>4 osoby (2 dospelí, 2 deti)</td><td>250 Kč</td>
+                </tr>
+                <tr>
+                    <td>4 deti</td><td>300 Kč</td>
+                </tr>
+                <tr>
+                    <td>10 ľudí</td><td>500 Kč</td>
+                </tr>
+                <tr>
+                    <td>20 ľudí</td><td>800 Kč</td>
+                </tr>
+                <tr>
+                    <td>5 vstupov</td><td>500 Kč</td>
+                </tr>
+                </tr>
+            </table>
+            <div class="poukazky">
+                <div class="nadpis">Dárkové poukazy</div>
+                <div>
+                    Suspendisse malesuada vel erat vitae interdum. Maecenas hendrerit mi libero. Ut nec eleifend ex. Sed ut est id nisi pulvinar aliquet ut ac lorem. Nulla sed risus hendrerit, elementum sem id, venenatis neque. Duis sit amet faucibus nulla, vitae tempor tellus. Aliquam est tortor, pulvinar id faucibus ac, imperdiet non eros. Maecenas lacinia et lectus vitae sagittis. Praesent consequat rutrum lacus, ullamcorper rutrum mi egestas non. Phasellus nec sem nisl.
+                </div>
+            </div>
+        </div>
+        </div>
+
+    <div class="contakt">
+    <h2 class="white" id="kontakt">Kontaktujte nás</h2>
+            <table>
+                <tr>
+                    <th>Informácie</th><th>Adresa</th>
+                </tr>
+                <tr>
+                    <td>
+                        e-mail <br><a href="mailto:zoo@zoomail.cz">zoo@zoomail.cz</a>
+                    </td>
+                    <td>Zoo Královo pole<br>
+                    Božetěchova Brno</td>
+                </tr>
+            </table>
+    </div>
+
+        <div class="foot">
+            Juraj Sokol (xsokol08)
+            <br>
+            Tieto strámky vznikli ako projekt pre predmet Tworba webových stránok (ITW)
+            <br>
+            Text na týchto stránkach je vymyslený
+        </div>
+    </body>
+</html>

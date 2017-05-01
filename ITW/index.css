@@ -1,0 +1,144 @@
+@import url("main.css");
+@import url("tisk.css") print;
+
+ .logo{
+     background-image: url(./images/StockSnap_4Y2GB5DCO3.jpg);
+ }
+
+ h2.white{
+     background-color:white;
+     color:#1A76B1;
+ }
+
+/*
+ * aktuality
+ */
+div.aktuality_container{
+     margin-top:10px;
+     margin-bottom:40px;
+}
+
+#akt1_text{
+    display:none;
+}
+
+ div.aktuality > div{
+     display:inline-block;
+     min-width:200px;
+     margin-right:1.5%;
+     margin-left: 1.5%;
+     width:30%;
+     padding-bottom:20px;
+     box-shadow: 0px 4px 20px #666666;
+ }
+
+ div.aktuality > div:hover{
+     box-shadow: 0px 2px 8px #666666;
+ }
+
+ div.aktuality div img{
+    max-width:100%;
+ }
+
+ div.aktuality > div div{
+     padding-top:15px;
+     font-size: 20px;
+    text-align: center;
+ }
+
+ /*
+  * cennik
+  */
+div.cennik_wrapper{
+    background-color:#ADD7F2;
+}
+
+div.cennik_wrapper h2{
+    color:white;
+    background-color:#ADD7F2;
+}
+
+div.cennik{
+    position:relative;
+}
+
+div.cennik table{
+    display:inline-block;
+    border-style:solid;
+    border-color:#1A76B1;
+    margin:20px;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 20px #666666;
+}
+
+div.cennik table tr th{
+    background-color:#1A76B1;
+    color:white;
+    padding:20px;
+}
+
+div.cennik tr td{
+        padding:20px;
+}
+
+div.cennik table tr:nth-child(even) {
+    background-color: #d8d8d8;
+}
+
+div.cennik table tr:nth-child(odd) {
+    background-color: white;
+}
+
+div.cennik > div{
+    position:absolute;
+    top:0;
+    padding:20px;
+    display:inline-block;
+}
+
+div.cennik div.poukazky{
+    border-style:solid;
+    background-color:white;
+    border-color:#1A76B1;
+    box-shadow: 0px 4px 20px #666666;
+    margin-right:20px; 
+    margin-top:20px;
+    margin-left:20px;
+    padding:0;
+    min-width:300px;
+}
+
+div.poukazky div.nadpis{
+    font-weight: bold;
+    text-align: center;
+    padding:20px;
+    background-color:#1A76B1;
+    color:white;
+}
+
+div.poukazky > div{
+    background-color:white;
+    padding:20px;
+}
+
+div.contakt table{
+    margin:auto;
+    border-collapse: collapse;
+}
+
+div.contakt table tr th{
+    color:#1A76B1;
+    padding:5px;
+    margin:auto;
+    border-bottom: solid;
+    border-bottom-color: #1A76B1;
+}
+
+div.contakt table tr td{
+    padding:20px;
+}
+
+div.contakt div.container div{
+    display:inline-block;
+    padding:20px;
+}
