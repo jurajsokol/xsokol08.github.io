@@ -46,7 +46,7 @@ img.logo_item{
 /*
  * navigation bar
  */
-ul {
+div ul {
     width:100%;
     position:absolute;
     bottom:0;
@@ -58,12 +58,12 @@ ul {
     /*background-color: rgba(0, 0, 0, 0.3);*/
 }
 
-li {
+div ul li {
     display:inline-block;
     color:white;
 }
 
-li a{
+div ul li a{
     display: block;
     color: white;
     text-align: center;
@@ -73,7 +73,7 @@ li a{
 
 }
 
-li a:hover {
+div ul li a:hover {
     border-bottom-style: solid;
      border-color:#ffffff;
      padding:10px 16px;
