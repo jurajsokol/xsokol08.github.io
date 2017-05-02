@@ -5,10 +5,14 @@
         <title>Zoo Královo pole</title>
         <link rel="stylesheet" href="index.css" type="text/css">
         <script>
-            function hideImage() {
-                document.getElementById("akt1").width="0";
-                $("akt1_text").css("display","block");
-            }
+                function hideImage(){
+                    document.cookie = "name=oeschger";
+                    document.getElementById("akt1").width="0";
+                }
+
+                function showImage() {
+                    document.getElementById("akt1").width="350";
+                }
 </script>
     </head>
     <body>
@@ -34,8 +38,8 @@
             <h2 class="white">Aktuality</h2>
             <div class="aktuality">
                 <div>
-                    <img id="akt1" alt="fox" onclick='hideImage()' src="./images/red-fox-2230731_1920.jpg">
-                    <div>Novo otvorené: zimná časť zoo</div>
+                    <img id="akt1" onclick='hideImage()' alt="fox" src="./images/red-fox-2230731_1920.jpg">
+                    <div onclick='showImage()'>Novo otvorené: zimná časť zoo</div>
                 </div>
                 <div>
                     <img alt="lamb" src="./images/lamb-2216160_1920.jpg">
