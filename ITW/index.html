@@ -21,8 +21,15 @@
                     else{
                          document.getElementById("akt1").width="350";
                          document.cookie = "image=visible";
+                    }   
+                }
+
+                function setCookie(){
+                    var value = document.cookie;
+                    if(value == ""){
+                        document.cookie = "image=visible";
                     }
-                    
+                    hideImage();
                 }
 </script>
     </head>
