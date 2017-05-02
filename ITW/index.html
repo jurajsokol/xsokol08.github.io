@@ -5,17 +5,28 @@
         <title>Zoo Královo pole</title>
         <link rel="stylesheet" href="index.css" type="text/css">
         <script>
-                function hideImage(){
-                    document.cookie = "name=oeschger";
-                    document.getElementById("akt1").width="0";
+                function setCookie(){
+                    var value = document.cookie;
+                    if(value == ""){
+                        document.cookie = "image=visible";
+                    }
                 }
 
-                function showImage() {
-                    document.getElementById("akt1").width="350";
+                function hideImage(){
+                    var value = document.cookie;
+                    if(vlue == "image=visible"){
+                        document.getElementById("akt1").width="0";
+                        document.cookie = "image=hidden";
+                    }
+                    else{
+                         document.getElementById("akt1").width="350";
+                         document.cookie = "image=visible";
+                    }
+                    
                 }
 </script>
     </head>
-    <body>
+    <body onload='setCookie()'>
         <div class="logo">
             <a href="https://xsokol08.github.io/ITW/index.html" class="logo_container">
                 <h1 class="logo_item">Zoo <br>Královo pole</h1>
