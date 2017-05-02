@@ -29,7 +29,12 @@
                     if(value == ""){
                         document.cookie = "image=visible";
                     }
-                    hideImage();
+                    if(value == "image=visible"){
+                        document.getElementById("akt1").width="0";
+                    }
+                    else{
+                         document.getElementById("akt1").width="350";
+                    }
                 }
 </script>
     </head>
