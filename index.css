@@ -10,26 +10,27 @@ h1{
 }
 
 .center {
-	width:520px;
+	width:600px;
 	background-color:rgb(220, 220, 220);
     margin: auto;
     padding: 10px;
 }
 
 .card {
+	width:44%;
 	vertical-align: top;
 	display:inline-block;
 	border:solid;
 	border-width:2px;
 	background-color:white;
-	margin:10px;
+	margin: 2% 2.5% 2% 2.5%;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.4);
 }
 
 img{
 	display:inline-block;
-	margin:10px;
-	max-width: 230px;
+	margin:2% 2.5% 2% 2.5%;
+	width:44%;
     height: auto;
 }
 
